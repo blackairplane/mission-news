@@ -1,0 +1,11 @@
+<div class="large-4 medium-4 columns text-left new-link" ng-controller="LinksController as linksCtrl">
+    <form>
+        <input type="text" placeholder="Search" />
+    </form>
+    <h4>Add A New Link</h4>
+    <form ng-submit="linksCtrl.addLink()">
+        <input id="title" ng-model="newLinkTitle" type="text" placeholder="Link Title" />
+        <input id="url"  type="url" ng-model="newLinkURL" placeholder="Link URL" autocomplete="none"/>
+        <input id="submit" type="submit" class="button tiny radius" value="SUBMIT" autocomplete="none"/>
+    </form>
+</div>

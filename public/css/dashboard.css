@@ -1,0 +1,140 @@
+input[type='url'],
+input[type='text'] {
+    border-radius:4px;
+    box-shadow:none;
+}
+.top-bar,
+.top-bar h1{
+    /*background: #1f2536;*/
+    font-family: "Open Sans", sans-serif;
+}
+
+.top-bar .left {
+    margin-left:30px;
+}
+
+.container {
+    margin:0 auto;
+    margin-top:20px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight:400;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+.upvote-button-group {
+    height:20px;
+    padding:0px;
+    position:relative;
+    width:50px;
+    font: 900 12px"Helvetica", sans-serif;
+    top:4px;
+}
+.upvote-button-group .upvote-button {
+    background-color:rgb(75, 150, 215);
+    border: 0;
+    width:40%;
+    height:100%;
+    padding:5px;
+    border-radius:4px 0px 0px 4px;
+    color:#333;
+    float:left;
+}
+
+.upvote-button-group .upvote-button i {
+    text-align: center;
+    vertical-align: top;
+    position:relative;
+    bottom:1px;
+    left:1px;
+    font-size: 12px;
+}
+.upvote-button-group .upvote-button:hover {
+    background-color: rgb(83, 167, 239);
+}
+.upvote-button-group .upvote-button:focus {
+    outline-width: 0;
+}
+.upvote-button-group #score {
+    background-color:#333;
+    color:white;
+    padding:0px;
+    height:100%;
+    width:60%;
+    position:relative;
+    border-radius:0px 4px 4px 0px;
+    float:right;
+    text-align:center;
+}
+.upvote-button-group #value {
+    width:100%;
+    position: relative;
+    top: 5px;
+}
+
+.row .link-item {
+    margin-bottom:15px;
+}
+
+.container #link-listing {
+    margin-bottom:15px;
+}
+
+.new-link #title {
+    margin-bottom: 0;
+    border-bottom: 0;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.new-link #url {
+    margin-top: 0px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.new-link #submit {
+    /*background-image: -moz-linear-gradient(left, #88859a, #298fca);*/
+    /*background-image: -ms-linear-gradient(left, #88859a, #298fca);*/
+    /*background-image: -o-linear-gradient(left, #88859a, #298fca);*/
+    /*background-image: -webkit-linear-gradient(left, #88859a, #298fca);*/
+    width: 100%;
+    box-shadow: 0px 3px 0px #3c5a6e;
+    font-weight:500;
+    letter-spacing: 1px;
+}
+
+.up-arrow {
+    position:relative;
+    bottom:6px;
+    left:1px;
+    width:6px;
+    height:8px;
+}
+
+small a {
+    color:#f25d32
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.comment hr {
+    margin:0;
+}
+.comment p {
+    margin-top:10px;
+    font-size: 12px;
+}
+
+.comment a {
+    color:#f25d32;
+}
+
+.comment p span {
+    color:#c5c5c5;
+}
